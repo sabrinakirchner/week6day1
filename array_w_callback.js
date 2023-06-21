@@ -96,15 +96,14 @@ console.log(exclaimPanagram)
 
 // Thought Questions
 // What happened to the original array?
-
+//I didn't understand this question ¯\_(ツ)_/¯
 
 
 // Can you store the values from a forEachmethod in a new array?
 //yes you can. 
 const multiplyNums = nums.map(num => num * 3);
-console.log(multiplyNums) //spread syntax(?)
-const newArray = [...multiplyNums]
-
+const newArray = [...multiplyNums] //spread syntax(?)
+console.log(multiplyNums) 
 
 
 // Map
@@ -119,10 +118,13 @@ console.log(upperCase);
 
 // Thought Questions
 // What happened to the original array?
+//It got upper case that the answer? sorry. 
 
 // Can you store the values from a mapmethod in a new array?
-
-
+//yes you can 
+constCase = panagram.map(word => word.toUpperCase());
+const caseArray = [...upperCase];
+console.log(upperCase);
 
 
 // Some
